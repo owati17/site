@@ -1,0 +1,230 @@
+﻿@charset "utf-8";
+
+/* サブ領域のナビゲーション ここから↓ */
+#sub #news {
+	background: #f1efe2 url(../images/sub-bg.gif) no-repeat center bottom;
+	padding-bottom: 30px;
+	margin-top: 0;
+	margin-bottom: -30px;
+}
+#sub #news h3 {
+	text-indent: -9999px;
+	background: url(../images/sub-h3.gif) no-repeat;
+	height: 40px;
+	width: 200px;
+	margin-bottom: 0;
+}
+#sub #news h4 {
+	font-size: 112%;
+	padding: 0 10px;
+	color: #000000;
+	font-weight: bold;
+	margin: 0 0 0.5em;
+}
+#sub #news p {
+	padding: 0 10px;
+	margin-top: 0;
+}
+#sub a#mm {
+	text-indent: -9999px;
+	background: url(../images/btn-mm.gif) no-repeat;
+	height: 52px;
+	width: 200px;
+	display: block;
+}
+#sub a#mm:hover {
+	background-image: url(../images/btn-mm_on.gif);
+}
+
+/* サブ領域のナビゲーション ここまで↑ */
+
+/* 基本レイアウト ここから↓ */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 87.5%;
+	line-height: 1.5;
+	background-color: #ffffff;
+	background-image: url(../images/header-bg.gif);
+	background-repeat: repeat-x;
+}
+#wrapper {
+	width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main {
+	width: 640px;
+	float: left;
+	margin-bottom: 20px;
+}
+#sub {
+	width: 200px;
+	float: right;
+}
+#footer {
+	clear: both;
+	border-top: 1px solid #999999;
+}
+#footer p {
+	margin: 10px 0 10px 0;
+	text-align: right;
+}
+#header {
+	padding: 0;
+	margin-bottom: 20px;
+	position: relative;
+}
+#header #logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+	width: 253px;
+	height: 160px;
+}
+#header a#logo:hover {
+	background-image: url(../images/logo_on.png);
+}
+#header h1,
+#header p {
+	margin: 0;
+}
+#header ul {
+	position: absolute;
+	right: 0;
+	bottom: 60px;
+}
+#header ul li {
+	list-style-type: none;
+	display: inline;
+}
+#header ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 7px 15px 7px 15px;
+	display: block;
+	float: left;
+	border: 1px solid #ffffff;
+	margin-right: -1px;
+}
+#header ul li a:hover {
+	background-color: #d783ac;
+}
+body#about #header ul li#nav1 a,
+body#event #header ul li#nav2 a,
+body#list #header ul li#nav3 a {
+	background-color: #ffffff;
+	color: #c64e88;
+}
+
+/* 基本レイアウト ここまで↑ */
+
+/* トップページ ここから↓ */
+body#home {
+	background-image: url(../images/header-bg-top.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+#header p#lead {
+	position: absolute;
+	top: 130px;
+	left: 280px;
+	color: #ffffff;
+	width: 550px;
+}
+body#home #header {
+	margin-bottom: 50px;
+}
+body#home #footer {
+	border-top: none;
+}
+body#home #main {
+	width: 860px;
+}
+
+/* トップページ ここまで↑ */
+
+/* 「岡山の魅力」ページ ここから↓ */
+#main h2 {
+	margin-bottom: 10px;
+	font-size: 122%;
+}
+#main p {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+img.floatRight {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+/* 「岡山の魅力」ページ ここまで↑ */
+
+/* 「岡山の観光イベント」ページ ここから↓ */
+table {
+	border-collapse: collapse;
+	margin: 20px 0 10px;
+}
+table th,
+table td {
+	padding: 3px 6px;
+	vertical-align: top;
+	border: 1px solid #bbbbbb;
+}
+table th {
+	font-weight: bold;
+	text-align: center;
+	background: #cccccc url(../images/th-bg.gif) no-repeat left top;
+	white-space: nowrap;
+}
+table td.month {
+	background-color: #f2f2f2;
+	background-image: url(../images/th-bg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	white-space: nowrap;
+}
+
+/* 「岡山の観光イベント」ページ ここまで↑ */
+
+/* 「メールマガジン登録」ページ ここから↓ */
+table#form-table th {
+	text-align: right;
+	background-color: #ffffff;
+}
+table#form-table th,
+table#form-table td {
+	border: none;
+}
+
+/* 「メールマガジン登録」ページ ここまで↑ */
+
+/* 「オススメWalk」ページ ここから↓ */
+#main .walk-list h2 {
+	margin: 5px 0 0 0;
+	font-size: 100%;
+}
+#main .walk-list p {
+	margin: 0;
+}
+#main .walk-list img {
+	padding: 5px;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+#main .walk-list {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#main .section {
+	margin-right: -20px;
+}
+
+/* 「オススメWalk」ページ ここまで↑ */
